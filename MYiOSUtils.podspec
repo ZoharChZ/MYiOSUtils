@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author       = { "ZoharChZ" => "zoharchz@gmail.com" }
     s.platform     = :ios, '9.0'
     s.source       = { :git => "https://github.com/ZoharChZ/MYiOSUtils.git", :tag => "#{s.version}" }
-    s.source_files = 'MYiOSUtils/**/*.{h,m}'
+    s.source_files = 'MYiOSUtils/MYiOSUtils/iosutils/**/*.{h,m}'
     s.frameworks   = "UIKit","AVFoundation","Foundation"
     s.requires_arc = true
 end
