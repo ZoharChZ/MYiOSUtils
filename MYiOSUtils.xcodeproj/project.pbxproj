@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86E9A873235470F600FBD49F /* MYiOSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYiOSUtils.h; sourceTree = "<group>"; };
 		86F612CE2354515A00C83CC2 /* MYiOSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYiOSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F612D12354515A00C83CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86F612D22354515A00C83CC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86E9A872235470E000FBD49F /* iosutils */ = {
+			isa = PBXGroup;
+			children = (
+				86E9A873235470F600FBD49F /* MYiOSUtils.h */,
+			);
+			path = iosutils;
+			sourceTree = "<group>";
+		};
 		86F612C52354515A00C83CC2 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +67,7 @@
 		86F612D02354515A00C83CC2 /* MYiOSUtils */ = {
 			isa = PBXGroup;
 			children = (
+				86E9A872235470E000FBD49F /* iosutils */,
 				86F612D12354515A00C83CC2 /* AppDelegate.h */,
 				86F612D22354515A00C83CC2 /* AppDelegate.m */,
 				86F612D42354515A00C83CC2 /* ViewController.h */,
