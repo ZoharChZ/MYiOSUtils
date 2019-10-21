@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8663F882235D9614002DEDA6 /* MYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8663F880235D9614002DEDA6 /* MYBaseView.m */; };
+		8663F887235D964D002DEDA6 /* MYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8663F886235D964D002DEDA6 /* MYBaseModel.m */; };
+		8663F88A235D9660002DEDA6 /* MYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8663F889235D9660002DEDA6 /* MYBaseViewController.m */; };
+		8663F88E235D96A0002DEDA6 /* UIViewController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8663F88D235D96A0002DEDA6 /* UIViewController+Custom.m */; };
+		8663F891235D96BB002DEDA6 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8663F890235D96BB002DEDA6 /* UIView+Custom.m */; };
 		86F612D32354515A00C83CC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F612D22354515A00C83CC2 /* AppDelegate.m */; };
 		86F612D62354515A00C83CC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F612D52354515A00C83CC2 /* ViewController.m */; };
 		86F612D92354515A00C83CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F612D72354515A00C83CC2 /* Main.storyboard */; };
@@ -16,6 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8663F880235D9614002DEDA6 /* MYBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBaseView.m; sourceTree = "<group>"; };
+		8663F881235D9614002DEDA6 /* MYBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBaseView.h; sourceTree = "<group>"; };
+		8663F885235D964D002DEDA6 /* MYBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYBaseModel.h; sourceTree = "<group>"; };
+		8663F886235D964D002DEDA6 /* MYBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYBaseModel.m; sourceTree = "<group>"; };
+		8663F888235D9660002DEDA6 /* MYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYBaseViewController.h; sourceTree = "<group>"; };
+		8663F889235D9660002DEDA6 /* MYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYBaseViewController.m; sourceTree = "<group>"; };
+		8663F88C235D96A0002DEDA6 /* UIViewController+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Custom.h"; sourceTree = "<group>"; };
+		8663F88D235D96A0002DEDA6 /* UIViewController+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Custom.m"; sourceTree = "<group>"; };
+		8663F88F235D96BB002DEDA6 /* UIView+Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		8663F890235D96BB002DEDA6 /* UIView+Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
 		86E9A873235470F600FBD49F /* MYiOSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYiOSUtils.h; sourceTree = "<group>"; };
 		86F612CE2354515A00C83CC2 /* MYiOSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYiOSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F612D12354515A00C83CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,9 +55,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8663F87E235D9614002DEDA6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8663F88B235D967C002DEDA6 /* Category */,
+				8663F883235D963F002DEDA6 /* Controller */,
+				8663F884235D963F002DEDA6 /* Model */,
+				8663F87F235D9614002DEDA6 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8663F87F235D9614002DEDA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8663F881235D9614002DEDA6 /* MYBaseView.h */,
+				8663F880235D9614002DEDA6 /* MYBaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8663F883235D963F002DEDA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8663F888235D9660002DEDA6 /* MYBaseViewController.h */,
+				8663F889235D9660002DEDA6 /* MYBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8663F884235D963F002DEDA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8663F885235D964D002DEDA6 /* MYBaseModel.h */,
+				8663F886235D964D002DEDA6 /* MYBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8663F88B235D967C002DEDA6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8663F88C235D96A0002DEDA6 /* UIViewController+Custom.h */,
+				8663F88D235D96A0002DEDA6 /* UIViewController+Custom.m */,
+				8663F88F235D96BB002DEDA6 /* UIView+Custom.h */,
+				8663F890235D96BB002DEDA6 /* UIView+Custom.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		86E9A872235470E000FBD49F /* iosutils */ = {
 			isa = PBXGroup;
 			children = (
+				8663F87E235D9614002DEDA6 /* Base */,
 				86E9A873235470F600FBD49F /* MYiOSUtils.h */,
 			);
 			path = iosutils;
@@ -151,9 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8663F882235D9614002DEDA6 /* MYBaseView.m in Sources */,
+				8663F891235D96BB002DEDA6 /* UIView+Custom.m in Sources */,
+				8663F887235D964D002DEDA6 /* MYBaseModel.m in Sources */,
 				86F612D62354515A00C83CC2 /* ViewController.m in Sources */,
 				86F612E12354515B00C83CC2 /* main.m in Sources */,
+				8663F88E235D96A0002DEDA6 /* UIViewController+Custom.m in Sources */,
 				86F612D32354515A00C83CC2 /* AppDelegate.m in Sources */,
+				8663F88A235D9660002DEDA6 /* MYBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,13 +366,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG4X9Q8U49;
 				INFOPLIST_FILE = MYiOSUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chz.MYiOSUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,13 +384,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG4X9Q8U49;
 				INFOPLIST_FILE = MYiOSUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chz.MYiOSUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

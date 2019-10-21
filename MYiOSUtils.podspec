@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "MYiOSUtils"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "This is the tool I have accumulated over the years."
     s.homepage     = "https://github.com/ZoharChZ/MYiOSUtils.git"
     s.license      = 'MIT'
